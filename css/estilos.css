@@ -1,0 +1,124 @@
+/*css general*/
+
+*{margin: 0; padding: 0;}
+a img{border: none;}
+
+body{
+    font-family: Verdana,Arial,Helvetica;
+    background:  url(../imagenes/fondo.gif) repeat-x top;
+}
+
+#pagina{
+    width: 900px;
+    margin:0 auto;
+}
+
+#cuerpo{
+    width: 800px;
+    height: 600px;
+    margin: 20px auto 0 auto;
+    background: url(../imagenes/cuerpo.png) no-repeat top;
+
+}
+
+/* css para index*/
+
+#logo {text-align: center;}
+#logo img{
+    margin: 20px auto;   
+}
+
+#texto{
+    margin: 0 auto;
+    text-align: center;
+}
+#texto h1{
+    font-size: 20px;
+    color: #666;
+    margin: 40px auto 0 auto;
+}
+
+#texto h1 a{
+    font-size: 35px;
+    color: #222;
+    margin: 30px auto;
+}
+
+#texto h2{
+    font-size: 14px;
+    color: #666;
+    margin: 10px auto 0 auto;
+}
+
+#imagenes { margin: 40px auto; text-align: center;}
+#imagenes img{ width: 170px; height: 65px; margin: 0 20px;}
+
+/*css para resto de paginas*/
+
+#menu #logo2{ margin: 20px 0 0 50px; float: left;}
+#menu table{ margin: 52px 50px 0 0; float: right;}
+#menu table td{
+    height: 20px;
+    padding: 1px;
+}
+#menu #linea{ margin: 0 0 20px 50px;}
+
+#menu table td a{
+    font-size: 12px;
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu table td a:hover{ color:#0070bb; }
+
+#menu table td a b{
+    color:#0070bb;
+}
+
+
+#texto2{ width:600px; margin:10px 0 0 50px; text-align: left; display: inline-block;}
+
+#texto2 h2{
+    color: #000;
+    margin: 10px 0;
+    font-size: 20px;
+
+}
+
+#texto2 p{
+    font-size: 14px;
+    color: #333;
+    padding: 2px 0;
+
+}
+
+#expositores {margin: 20px 0 0 50px }
+#expositores img{ width: 210px; padding: 0 5px 35px 5px;}
+
+
+#horarios table{
+    width: 640px;
+    margin: 20px auto;
+}
+#horarios table ul li{
+    font-size: 12px;
+    color: #333;
+    list-style: none;
+    width: 220px;
+    margin: 10px 0;
+}
+
+#inscripciones { margin: 20px auto; width: 300px;}
+
+#inscripciones table td { padding: 4px 0; color: #666;}
+#inscripciones table td input { width: 200px}
+
+
+#videos { margin: 10px 0 0 50px}
+#videos object{padding: 0 8px}
+
+#fotos{ margin: 20px 0 0 50px }
+#fotos img { width: 210px; height: 110px;  padding: 0 8px; }
+
+#mapa { margin: 20px 0 0 50px;}
+
